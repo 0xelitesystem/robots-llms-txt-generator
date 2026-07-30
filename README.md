@@ -20,6 +20,10 @@ Open `index.html` in any browser, or use the hosted GitHub Pages version. Adjust
 
 Runs entirely in your browser. No network calls, no analytics, no data stored.
 
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
 ## License
 
 MIT. Copyright 0xelitesystem 2026.

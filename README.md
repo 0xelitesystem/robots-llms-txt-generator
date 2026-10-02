@@ -12,13 +12,30 @@ Enter your site URL, choose which named AI crawlers to allow, set your disallow 
 
 A wildcard rule alone leaves AI crawler access ambiguous. Naming each crawler and allowing it explicitly states your intent clearly, and every crawler you do not name is a surface where your brand may not be readable. The default is to allow the named AI crawlers unless you have a specific reason to block one.
 
-## How to use it
+## Use
 
 Open `index.html` in any browser, or use the hosted GitHub Pages version. Adjust the inputs, switch between the robots.txt and llms.txt tabs, and copy each file to your site root. Replace the example llms.txt links with your real pages and write each description specific to what that page answers.
+
+## Why this exists
+
+Writing a robots.txt that names each AI crawler, plus a matching llms.txt, by hand is slow and easy to get wrong. This generator builds both files from a short form. It is one HTML file with no tracking and no network calls. MIT licensed.
 
 ## Privacy
 
 Runs entirely in your browser. No network calls, no analytics, no data stored.
+
+## Run locally
+
+```bash
+git clone https://github.com/0xelitesystem/robots-llms-txt-generator
+cd robots-llms-txt-generator
+```
+
+Open `index.html` in any browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000/.
+
+## Build
+
+No build step. The whole tool is one `index.html` file with its CSS, JavaScript and font subsets inline.
 
 ## More
 
